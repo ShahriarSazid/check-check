@@ -17,7 +17,7 @@ function App() {
           type="text"
           value={word}
           onChange={(e) => setWord(e.target.value)}
-          placeholder="Enter a word..."
+          placeholder="Rosema, say something..."
         />
         <button type="submit">Submit</button>
       </form>
